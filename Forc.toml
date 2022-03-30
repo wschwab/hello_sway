@@ -1,0 +1,9 @@
+[project]
+name = "hello_sway"
+author = "x"
+entry = "test_contract.sw"
+license = "Apache-2.0"
+
+[dependencies]
+std  = { git = "http://github.com/FuelLabs/sway-lib-std" }
+core = { git = "http://github.com/FuelLabs/sway-lib-core" }
